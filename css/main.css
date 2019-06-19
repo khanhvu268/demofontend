@@ -1,0 +1,274 @@
+body p,h5{
+    margin-bottom: 0;
+}
+a{
+    color: #222;
+}
+a:hover{
+    text-decoration: none;
+}
+.drop-menu>.nav{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    min-width: 200px;
+    background:#929be2;
+    top:100%;
+    right:15px;
+    z-index: 1200;
+}
+.drop-menu>a:hover+nav{
+    display: flex;
+    flex-direction: column;
+  
+}
+.drop-menu>.nav:hover{
+    display: flex;
+    flex-direction: column;
+    
+}
+/* footer */
+
+/* logo */
+#logo{
+    min-width: 250px;
+}
+#logo>p{
+
+    font-family: damion;
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(107, 107, 107);
+    height: 100%;
+    margin-block-end: 0;
+}
+/* reset */
+footer a,footer p{
+    color: #c9c9c9;
+    font-size: 14px;
+    transition: all 0.7s;
+}
+header a,header p{
+    color: #c9c9c9;
+    font-size: 14px;
+    transition: all 0.7s;
+}
+footer a:hover{
+    color: #6c7ae0;
+}
+header a:hover{
+    color: #6c7ae0;
+}
+.drop-menu>.nav>a:hover{
+    color:#fff; 
+}
+header>.container-fluid,footer{
+    background: #222;
+}
+
+footer h5{
+    color:#fff;
+}
+.bor-lr{
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    margin-left: -1px; 
+}
+
+#collapsibleNavId a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    transition: all 0.7s;
+    
+}
+.active-1{
+    border-bottom: 3px solid rgb(102, 102, 102);
+}
+#collapsibleNavId a:hover{
+    border-bottom: 3px solid rgb(102, 102, 102);
+}
+
+/* back-to-top */
+
+.back-to-top{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 80px;
+    bottom:0px;
+    opacity: 0.5;
+    background: #717fe0;
+    color:#fff;
+    cursor: pointer;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  display: none;
+ 
+}
+.back-to-top:hover{
+    opacity: 1;
+}
+/* card    */
+.card{
+    background: #f8f9fa!important;
+    margin-bottom: 20px;
+}
+.card>.img-card{
+    overflow: hidden;
+}
+.card>.img-card>img{
+    cursor: pointer;
+    transition: all 0.7s;
+   
+}
+.card>.img-card>img:hover{
+    transform: scale(1.2)
+}
+.card>.body-card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card>.body-card>.price{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.card>.body-card>.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    border-bottom:  1px solid #c9c9c9;
+    
+}
+.card>.body-card>.buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.card>.body-card>.price>p{
+    text-decoration: line-through;
+   
+}
+.card>.body-card>.price>h5{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background: #F76D2C;
+    color: #fff;
+}
+.card>.body-card>.name>h5{
+    color: #DC3545;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    
+}
+.fa-star{
+    color: #FFC107;
+}
+
+/* carousel */
+#control-carousel{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(82, 81, 81);
+}
+
+
+/* isotop ========================================================= */
+.menu-isotope{
+    position: relative;
+}
+.menu-isotope a{
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.7s;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 20px;
+
+}
+.menu-isotope a:hover{
+    border-bottom: 1px solid rgb(102, 102, 102) ;
+}
+.active-2{
+    border-bottom: 1px solid rgb(102, 102, 102) ;
+}
+/* filter search */
+.nav-right{
+
+}
+
+
+/* partner */
+.partner{
+    background-image: url("../image/cta-bg.jpg");
+    height: 150px;
+}
+.partner .item{
+    display: flex;
+    justify-content: center;
+}
+.partner .owl-stage-outer{
+    top:40px;
+}
+/* fiilter drop================================================================ */
+.drop-filter{
+    background: #eeeeee;
+    text-align: left;
+    overflow: hidden;
+}
+.drop-filter p{
+    padding-left: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.drop-filter a{
+    cursor: pointer;
+    color: #c9c9c9;
+}
+#drop-search{
+    overflow: hidden;
+}
+
+
+
+/* ========================= */
+#demo h5{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#collapsibleNavId a{
+    margin-right: 20px;
+    padding-left:0;
+    padding-right:0;
+}
+li[data-slide-to]{
+    cursor: pointer;
+}
+#demo2>div h1{
+    display: inline-block;
+    background: #F76D2C;
+    color: #fff
+
+}
+#demo2>nav>a{
+    background: rgb(82, 82, 196);
+    color: #fff;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
